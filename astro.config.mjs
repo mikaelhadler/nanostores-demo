@@ -8,6 +8,6 @@ import tailwind from '@astrojs/tailwind'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://rayriffy.github.io',
-  base: '/nanostores-demo',
+  base: '/',
   integrations: [svelte(), react(), vue(), tailwind()],
 })
